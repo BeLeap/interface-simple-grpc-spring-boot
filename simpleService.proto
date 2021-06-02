@@ -1,5 +1,5 @@
 syntax = "proto3";
-package co.riiid.simplegrpcspringboot;
+package co.riiid.simpleboot;
 option java_outer_classname = "SimpleProto";
 option java_multiple_files = true;
 
@@ -18,4 +18,3 @@ message SimpleGetResponse {
   int64 payload_1 = 1;
   google.protobuf.Timestamp payload_2 = 2;
 }
-
